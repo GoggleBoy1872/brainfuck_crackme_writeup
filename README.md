@@ -96,5 +96,6 @@ Extracting the password would require use of our memory_analyzer file. I added a
 After a while, I was able to find which method they were using to locate the password. First of all, they would gather your 6 input characters, and, from the bottom upward, go in a chain; - 10, + 10, - 10, + 10, and so on. However, what I noticed instantly was that they were always adding 1 or 2, or in one case subtracting 1 from it. This initially made me wonder if there even was a password, since they were adding +1 so it always went into that loop. But... then I remembered brainfuck uses % 256, meaning that if you had 255 and you added 1 to it, it becomes 0, and skips the loop. That was the method for solving it. Leaving us with two methods of a "crack", manually making the password always correct no matter what, and implementing the password: `1l0v3u`. 
 
 This was an extremely fun challenge, and this wouldn't be possible without the crackme. I'll link it below, along with a link to the person's github that uploaded it. 
+
 [authors github](https://github.com/0v41n)
 [crackme github](https://github.com/0v41n/BrainFuck-Crackme)
