@@ -98,4 +98,5 @@ After a while, I was able to find which method they were using to locate the pas
 This was an extremely fun challenge, and this wouldn't be possible without the crackme. I'll link it below, along with a link to the person's github that uploaded it. 
 
 [authors github](https://github.com/0v41n)
+
 [crackme github](https://github.com/0v41n/BrainFuck-Crackme)
